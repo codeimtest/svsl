@@ -1,0 +1,290 @@
+/* === DESKTOP FIRST === */
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width : 1400px) {
+.first-page{
+	background-position: right -26em bottom -1em;
+	background-size: cover;
+}
+.card-thumb {
+	min-width: 400px;
+	height: 400px;
+}
+}
+
+/* lg <= Extra large (xl) */
+@media (max-width : 1200px) {
+.first-page{
+	background-position: right -26em bottom 10em;
+}
+}
+
+/* md <= Large (lg) */
+@media (max-width : 992px) {
+	h4{
+		font-size: 14px;
+	}
+	section{
+		padding-top: 64px;
+	}
+	p{
+		font-size: 14px;
+	}
+	.number-title{
+		font-size: 24px;
+		margin-bottom: 8px;
+		line-height: 32px;
+	}
+	.step p{
+		font-size: 12px;
+	}
+	.number-text{
+		font-size: 12px;
+	}
+	.card{
+		padding: 64px 16px 28px 16px !important;
+		flex-flow: column;
+	}
+	.card-thumb{
+		height: 260px;
+		min-width: 260px;
+	}
+	.card-info h2,.card-info p{
+		margin-bottom: 24px;
+	}
+	.card-info h4{
+		margin-bottom: 16px;
+	}
+	.card-info{
+		margin-right: 0;
+	}
+	.numbers{
+		margin-top: 32px;
+	}
+	h2{
+		font-size: 28px;
+		line-height: 36px;
+	}
+	.first-page{
+		padding-top: 210px;
+		background-position: right -18em bottom 3em;
+	}
+	.mobile-toggle .main-btn{
+		width: 100%;
+	}
+	.first-page h1, .first-page p{
+		margin-bottom: 24px;
+	}
+	h1{
+		font-size: 36px;
+		line-height: 44px;
+	}
+	.logo img{
+		width: 100px;
+	}
+	.first-page p{
+		font-size: 16px;
+	}
+	.d-m-none{
+		display: none;
+	}
+	.toggle-button{
+		display: block;
+	}
+	.h-widget ul{
+		flex-flow: column;
+    align-items: flex-start;
+	}
+	.h-widget ul li a{
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 32px;
+	}
+	.h-widget ul li {
+		margin-bottom: 24px;
+	}
+	.h-widget ul li:last-child{
+		margin-bottom: 32px;
+	}
+	.mobile-toggle{
+		padding: 0 0.625rem 16px;
+		position: absolute;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    top: -500px;
+		flex-flow: column;
+    align-items: normal;
+		transition: 0.3s ease all;
+	}
+	.card::after{
+		content: none;
+	}
+	.mobile-toggle.active{
+		top: 92px;
+		transition: 0.3s ease all;
+	}
+	.d-d-none{
+		display: block;
+	}
+	header.active{
+		overflow-y: scroll;
+		height: 100%;
+	}
+	.h-widget > a,.h-widget ul li a{
+		width: 100%;
+	}
+	.to-tg{
+		width: 100%;
+		border-radius: 100px;
+		margin-bottom: 16px;
+		color: #fff;
+	}
+	.to-tg img{
+		margin-right: 8px;
+	}
+	header{
+		position: fixed;
+		width: 100%;
+		z-index: 2;
+	}
+	.steps {
+    margin-top: 26px;
+}
+.step{
+	margin-bottom: 24px;
+}
+.step-number{
+	margin-right: 16px;
+}
+.team{
+	margin-top: 24px;
+}
+.acordeon{
+	margin-top: 24px;
+}
+.toggle-accordion{
+	font-size: 14px;
+	padding: 8px 16px 8px 16px;
+}
+.toggle-accordion::before{
+	height: 12px;
+}
+.toggle-accordion::after{
+	width: 12px;
+}
+form{
+	padding: 64px 16px;
+}
+form .contact-widget{
+	margin-bottom: 24px;
+}
+form .contact-widget:last-child{
+	margin-bottom: 24px;
+}
+.options{
+	margin-top: 26px;
+	margin-bottom: 34px;
+}
+.options-tripple{
+	flex-flow: wrap;
+}
+.option{
+	margin-bottom: 20px;
+}
+.option:last-child{
+	margin-bottom: 0;
+}
+form h3{
+	margin-bottom: 26px;
+}
+form button{
+	width: 100%;
+}
+form{
+	border-radius: 0;
+}
+.p-m-0{
+	padding-left: 0;
+	padding-right: 0;
+}
+.p-i {
+	padding-left: inherit;
+	padding-right: inherit;
+	overflow: hidden;
+}
+.f-widgets{
+	flex-flow: column;
+	text-align: center;
+}
+form::after,form::before,.f-widget ul li::before{
+	content: none;
+}
+.socials{
+	margin-top: 26px;
+	margin-bottom: 26px;
+}
+.f-widget ul{
+	flex-flow: column;
+	text-align: center;
+}
+.f-widget ul li{
+	margin-left: 0;
+	margin-bottom: 8px;
+}
+footer{
+	padding: 32px 0;
+}
+}
+
+/* sm <= Medium (md) */
+@media (max-width : 768px) {
+	.first-page{
+		background-position: right -15em bottom 9em;
+	}
+}
+
+/* xs <= Small (sm) */
+@media (max-width : 576px) {
+.first-page{
+	background-position: right -12em bottom 14em;
+	background-size: 576px;
+}
+}
+
+
+/* === MOBILE FIRST === */
+
+/* Custom (xs) */
+@media (min-width : 0) {
+
+}
+
+/* Small (sm) */
+@media (min-width : 576px) {
+
+}
+
+/* Medium (md) */
+@media (min-width : 768px) {
+
+}
+
+/* Large (lg) */
+@media (min-width : 992px) {
+
+}
+
+/* Extra large (xl) */
+@media (min-width : 1200px) {
+	.text {
+		font-size: 18px;
+	}
+}
+
+/* Extra extra large (xxl) */
+@media (min-width : 1400px) {
+	.text {
+		font-size: 22px;
+	}
+}
