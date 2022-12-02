@@ -117,8 +117,11 @@
     align-items: normal;
 		transition: 0.3s ease all;
 	}
-	.card::after{
+	.card::before{
 		content: none;
+	}
+	.card::after{
+		background-image: url(../images/card-m-after.svg);
 	}
 	.mobile-toggle.active{
 		top: 92px;
