@@ -172,9 +172,11 @@
 }
 .toggle-accordion::before{
 	height: 12px;
+	right: 12px;
 }
 .toggle-accordion::after{
 	width: 12px;
+	right: 7.5px;
 }
 form{
 	padding: 64px 16px;

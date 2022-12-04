@@ -364,15 +364,16 @@ border-radius: 12px;
 	position: absolute;
 	content: "";
 	transition: all 0.2s ease;
-	right: 3%;
+	right: 12px;
 	margin: auto;
 }
 .toggle-accordion::after,.toggle-accordion::before{
 	border-radius: 3px;
+	right: 17px;
 }
 .toggle-accordion::after {
 	transition: all 0.2s ease;
-	right: 2%;
+	right: 10.5px;
 	margin: auto;
 	height: 2px;
 	width: 16px;
