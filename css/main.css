@@ -635,3 +635,117 @@ footer{
 	transform: rotate(-45deg);
 	top: 6px;
 }
+.cases {
+	font-size: 20px;
+	background: #10002F;
+	padding: 120px 0;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
+	background: var(--accent);
+}
+.swiper-pagination .swiper-pagination-bullet{
+	width: 8px;
+	height: 8px;
+	background: #fff;
+	margin: 12px 0 !important;
+}
+.swiper-pagination {
+	position: relative;
+	margin-top: 32px;
+	bottom: 0 !important;
+	right: 0;
+}
+.case-carousel{
+	margin-top: 48px;
+	overflow: visible;
+}
+/*
+.case-carousel .swiper-slide{
+	opacity: .25;
+}
+.case-carousel .swiper-slide-visible {
+	opacity: 1;
+}*/
+.case-carousel .swiper-slide img{
+	border-radius: 16px;
+	min-height: 351px;
+	object-fit: cover;
+	width: 100%;
+	margin-bottom: 24px;
+}
+.case-carousel .swiper-slide h3{
+	color: #fff;
+	font-size: 22px;
+	margin-bottom: 16px;
+}
+.case-carousel .swiper-slide p{
+	margin-bottom: 16px;
+	font-size: 16px;
+	color:rgba(255, 255, 255, 0.8);
+}
+.case-carousel .swiper-slide a{
+	color: var(--accent);
+	position: relative;
+	font-size: 16px;
+}
+.case-carousel .swiper-slide a::after{
+	height: 1px;
+	width: 100%;
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background: var(--accent);
+}
+.slide-btn:hover,.swiper-button-disabled{
+	opacity: 0.7;
+	transition: 0.2s ease;
+}
+.slide-btn{
+	width: 48px;
+	height: 48px;
+	display: flex;
+	align-items: center;
+	border: 1px solid rgba(255, 255, 255, 0.16);
+filter: drop-shadow(0px 2px 8px rgba(48, 50, 61, 0.16));
+	justify-content: center;
+	border-radius: 100%;
+}
+.section-arrows{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.prev-btn{
+	transform: rotate(180deg);
+	margin-right: 16px;
+}
+.cases::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+	background: url(../images/case-before.svg) no-repeat;
+	height: 100%;
+	z-index: -1;
+	background-size: auto;
+	background-position: top left;
+}
+.cases::after {
+	content: '';
+	position: absolute;
+	right: 0;
+	width: 100%;
+	top: 0;
+	background: url(../images/case-after.svg) no-repeat;
+	height: 100%;
+	z-index: -1;
+	background-size: auto;
+	background-position: bottom right;
+}

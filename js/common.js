@@ -1,3 +1,10 @@
+$('.toggle-button').click(function(){
+	$('header').toggleClass('active');
+	$(this).toggleClass('active')
+	$('.mobile-toggle').toggleClass('active')
+	$('body').toggleClass('lock')
+})
+
 const cards = gsap.utils.toArray(".card");
 const spacer = 20;
 const minScale = 0.8;
@@ -45,9 +52,25 @@ for (var i = 0; i < toggleActiveElements.length; i++) {
         this.classList.toggle('active');
     });
 }
-$('.toggle-button').click(function(){
-	$('header').toggleClass('active');
-	$(this).toggleClass('active')
-	$('.mobile-toggle').toggleClass('active')
-	$('body').toggleClass('lock')
-})
+var swiper = new Swiper(".case-carousel", {
+	pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+	},
+	slidesPerView: 1.1,
+	watchOverflow: true,
+  spaceBetween: 16,
+	loop: false,
+	watchOverflow: true,
+	watchSlidesProgress: true,
+	navigation: {
+		nextEl: ".next-btn",
+		prevEl: ".prev-btn",
+	},
+	breakpoints: {
+		992: {
+			slidesPerView: 2.1,
+			spaceBetween: 40,
+		},
+	}
+});

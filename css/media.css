@@ -238,6 +238,35 @@ form::after,form::before,.f-widget ul li::before{
 footer{
 	padding: 32px 0;
 }
+.case-carousel .swiper-slide img{
+	border-radius: 8px;
+	min-height: 182px;
+	object-fit: cover;
+	margin-bottom: 16px;
+}
+.case-carousel .swiper-slide h3{
+	font-size: 14px;
+	margin-bottom: 12px;
+}
+.case-carousel .swiper-slide p{
+	font-size: 12px;
+	margin-bottom: 12px;
+}
+.case-carousel .swiper-slide a{
+	font-size: 14px;
+}
+.cases{
+	padding: 64px 0;
+}
+.case-carousel{
+	margin-top: 30px;
+}
+.cases::after{
+	content: none;
+}
+.cases::before{
+	background: url('../images/case-m-before.svg') no-repeat;
+}
 }
 
 /* sm <= Medium (md) */
