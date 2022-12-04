@@ -18,7 +18,8 @@ cards.forEach((card, index) => {
 			
     },
     ease: "none",
-    scale: scaleVal
+    scale: scaleVal,
+		boxShadow: '0px 0px 35px 6px rgba(34, 60, 80, 0.2)',
   });
 
   ScrollTrigger.create({
